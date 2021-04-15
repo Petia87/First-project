@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#background{
+    background-color: rgb(188, 244, 169);
+    background-size:auto;
+    text-align: center;
+}
+h1{
+    color: rgb(87, 198, 62);
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+ padding-top: 20px;
+ text-transform: capitalize;
+}
+
+#player{
+    background-size: auto;
+padding-bottom: 30px;
+
+}
+.button{
+    position: relative;
+}

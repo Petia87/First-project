@@ -1,10 +1,34 @@
+let x = document.getElementById("vplayer"); 
+
+
+function playAudio() { 
+    x.play(); 
+} 
+
+function pauseAudio() { 
+    x.pause(); 
+} 
+
+
+function prevAudio() { 
+    x.pause(); 
+} 
+
+
+function nextAudio() { 
+    x.pause(); 
+} 
+
+
+
+/*
 let buttonPlay=document.getElementById('player').play()
 let buttonPause=document.getElementById('player').pause()
 let buttonValue1=document.getElementById('player').volume+=0.1
 let buttonValue2=document.getElementById('player').volume-=0.1
 
 
-/*if (command==buttonPlay) {
+if (command==buttonPlay) {
     buttonPlay.style.display='inline'
     buttonPause.style.display='none'
 } else if (command==buttonPause) {
@@ -31,3 +55,5 @@ function playPause() {
         buttonPause.style.display='inline'
     }
 }
+*/
+console.log(1);

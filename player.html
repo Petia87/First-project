@@ -16,14 +16,15 @@
         <h1>This is my first project</h1>
 
 
-        <div id="background_player">
-            <video id="player" width="400" controls>
-                <source src="video.mp4">
-                <button onclick>Play</button>
-                <button onclick>Pause</button>
-                <button onclick>Volume Up</button>
-                <button onclick>Volume Down</button>
-            </video>
+        <div id="vplayer">
+                <source src="Video.mp4" id="Video" width="400">
+        </div>
+        <div id="video_player">
+          
+            <button onclick="prevVideo()" type="button">Previous Video </button>
+            <button onclick="playVideo()" type="button">Play Video</button>
+            <button onclick="pauseVideo()" type="button">Pause Video</button>
+            <button onclick="nextVideo()" type="button">Next Video</button>
 
         </div>
 

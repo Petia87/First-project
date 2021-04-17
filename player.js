@@ -1,21 +1,21 @@
 let x = document.getElementById("vplayer"); 
 
 
-function playAudio() { 
+function playVideo() { 
     x.play(); 
 } 
 
-function pauseAudio() { 
+function pauseVideo() { 
     x.pause(); 
 } 
 
 
-function prevAudio() { 
+function prevVideo() { 
     x.pause(); 
 } 
 
 
-function nextAudio() { 
+function nextVideo() { 
     x.pause(); 
 } 
 

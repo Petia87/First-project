@@ -31,21 +31,24 @@ h1 {
 .video {
     width: 100%;
 }
-ul{
+
+ul {
     padding: 0;
     margin: 0;
 }
-ul li{
-    display:inline;
-       }
-       .progress{
-        display: block;
-        width: 100%;
-       }
-.volume {
 
+ul li {
+    display: inline;
 }
-.play, .pause{
+
+.progress {
+    display: block;
+    width: 100%;
+}
+
+
+
+.play, .pause {
     background-color: #484848;
     color: white;
     border-radius: 50%;

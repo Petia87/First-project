@@ -6,31 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script type="text/javascript" src="player.js"></script>
+
     <link rel="stylesheet" type="text/css" href="player.css">
 
 </head>
 
 <body>
-    <div id="background">
+    <div class="video-player">
         <h1>This is my first project</h1>
 
+        <video src="video.mp4" type="video/mp4" class="video"></video>
+        <ul>
+            <li><button class='play li'>▷</button></li>
+            <li><button class='pause li'>| |</button></li>
+                        <li><input class='volume li' type="range"></input></li>
+                        <li><progress class='progress li' value='0'></button></li>
+            
+            
 
-        <div id="vplayer">
-                <source src="Video.mp4" id="Video" width="400">
-        </div>
-        <div id="video_player">
-          
-            <button onclick="prevVideo()" type="button">Previous Video </button>
-            <button onclick="playVideo()" type="button">Play Video</button>
-            <button onclick="pauseVideo()" type="button">Pause Video</button>
-            <button onclick="nextVideo()" type="button">Next Video</button>
-
-        </div>
-
-
+        </ul>
+        
     </div>
 
+    
+
+    <!--
+    <div id="vplayer">
+        <source src="Video.mp4" id="Video" width="400">
+    </div>
+    <div id="video_player">
+        <button onclick="playVideo()" type="button">▷</button>
+        <button onclick="pauseVideo()" type="button">┃ ┃</button>
+    </div>
+-->
+    <script type="text/javascript" src="player.js"></script>
 </body>
 
 </html>
